@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form action="crearNoticia.php" method="post" >
+
+<div id="navbar">
+<div class="inbar">
+
+<hr color="blue" size=32>
+
+<div>
+	<label>título:</label><br>
+	<input type="text" name="tituloNoticia" maxlength="40" id="tituloNoticia" required><br><br>
+	<label>Noticia:</label><br>
+	<textarea name="noticia" id="noticia" cols="60" rows="5" required></textarea><br><br>
+	<input type="submit" name="enviar" value="enviar">
+	
+
+</div>
+</body>
+</html>
+
+<?
+include 'config.php';
+?>
